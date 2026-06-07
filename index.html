@@ -1,49 +1,206 @@
-<section class="hero">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSTarget | Investigative Case Management</title>
 
-```
-<div class="tagline">
-    Court-Defensible Investigative Infrastructure
-</div>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
 
-<h1>
-    Investigative Case Management Built for Evidence, Integrity, and Accountability
-</h1>
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
 
-<p>
-    OSTarget is a professional investigative case management platform being developed
-    for private investigators, process servers, compliance teams, corporate investigators,
-    legal professionals, and organizations that require secure, timestamped, audit-ready records.
-</p>
+    header {
+      padding: 28px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.12);
+    }
 
-<a class="button" href="mailto:info@ostarget.com">
-    Request Information
-</a>
-```
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
 
-</section>
+    .hero {
+      text-align: center;
+      padding: 90px 24px 70px;
+    }
 
-<section style="padding: 20px 24px 80px 24px; text-align:center;">
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      margin: 0 0 20px;
+      line-height: 1.05;
+    }
 
-```
-<img
-    src="ostarget-dashboard.png"
-    alt="OSTarget Platform Preview"
-    style="
-        width:100%;
-        max-width:900px;
-        border-radius:12px;
-        border:1px solid rgba(255,255,255,0.12);
-        box-shadow:0 15px 40px rgba(0,0,0,0.45);
-    "
->
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto 30px;
+      font-size: 1.25rem;
+      color: #cbd5e1;
+    }
 
-<p style="
-    color:#94a3b8;
-    margin-top:18px;
-    font-size:0.95rem;
-">
-    Early OSTarget development preview. Features and interface subject to change during development.
-</p>
-```
+    .tagline {
+      color: #38bdf8;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+    }
 
-</section>
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      background: #38bdf8;
+      color: #020617;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+
+    .section {
+      background: #111827;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 14px;
+      padding: 26px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    .card p {
+      color: #cbd5e1;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 18px;
+    }
+
+    .about p {
+      color: #cbd5e1;
+      max-width: 850px;
+      font-size: 1.08rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 36px 24px;
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">OSTarget</div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="tagline">Court-Defensible Investigative Infrastructure</div>
+      <h1>Investigative case management built for evidence, integrity, and accountability.</h1>
+      <p>
+        OSTarget is being developed as a professional investigative platform for private investigators,
+        process servers, compliance teams, legal support, and organizations that require secure,
+        timestamped, audit-ready case records.
+      </p>
+      <a class="button" href="mailto:info@ostarget.com">Request Information</a>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Core Platform Principles</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Immutable Records</h3>
+            <p>
+              Case notes, evidence entries, uploads, and investigative actions are designed around
+              permanent timestamped records and transparent correction history.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Chain of Custody</h3>
+            <p>
+              Evidence handling, uploads, user attribution, and case activity are structured to support
+              professional disclosure, review, and evidentiary integrity.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Audit Trails</h3>
+            <p>
+              Every significant action within a case file is intended to be logged, attributed, and preserved
+              to support accountability and supervisory review.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Court-Ready Reporting</h3>
+            <p>
+              OSTarget is being built to generate professional reports from the underlying case record,
+              including timelines, notes, evidence lists, and investigator conclusions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container about">
+        <h2>Designed for Investigative Work</h2>
+        <p>
+          OSTarget is focused on the practical realities of investigations: contemporaneous notes,
+          evidence preservation, multi-user case collaboration, restricted access, supervisory oversight,
+          and final report generation. The goal is to provide a secure foundation for investigative teams
+          that need more than generic case management software.
+        </p>
+
+        <p>
+          The platform is currently in development.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 OSTarget. All rights reserved. · <a href="mailto:info@ostarget.com">info@ostarget.com</a>
+  </footer>
+
+</body>
+</html>
